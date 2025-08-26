@@ -114,6 +114,7 @@ color: var(--theme-colour-primary);
   text-align: center;
   border: 2px solid whitesmoke;
   padding: 64px 16px;
+  margin-block: 12px;
   transition: all 0.4s ease;
 }
 .service-cards:hover{
@@ -292,6 +293,7 @@ text-align: center;
   position: absolute;
   right: 0;
   top: 0;
+  z-index: 0;
 }
 
 
@@ -346,6 +348,13 @@ text-align: center;
   height: 60px !important;
  border-radius: 0 !important ;
  border-color: lightgray;
+ width: 100% !important;
+}
+.form-control{
+  width: auto;
+}
+.form-control-custom{
+  width: 100% !important;
 }
 .form-control:focus{
   border-color: var(--theme-colour-primary);
@@ -357,7 +366,7 @@ text-align: center;
 }
 .btn-appnt-custom{
   border-radius: 12px;
-  width: 25%;
+ 
 }
 .doctor-profile{
    position: relative;
@@ -439,6 +448,7 @@ margin-top: 10px !important;
  position: relative;
   transition:all 1s ease;
   transition-property: var(--theme-colour-primary);
+  margin-block: 30px;
 
 }
 .opn-card:hover{
@@ -473,6 +483,7 @@ margin-top: 10px !important;
   background-color: white; 
    transition: all 600ms ease;
   box-sizing: border-box;
+  margin-block: 25px;
 }
 .price-card:hover{
   box-shadow: var(--bs-box-shadow-lg);
@@ -540,6 +551,9 @@ margin-top: 10px !important;
 .faqs{
    background-color: #e9ebee;
 }
+div.faqs-bg-img img{
+  width: 100%;
+}
 .accordion-button:not(.collapsed){
   background-color: var(--theme-colour-primary);
   border-color: var(--theme-colour-primary);
@@ -561,9 +575,6 @@ margin-top: 10px !important;
   justify-items: center;
 }
 .subscription-form .btn-send{
-  position: absolute;
-  left: 65%;
-  margin-top: 3%;
   font-size: 18px;
   background-color:white;
   border-left: 2px  solid #eaeaea;
@@ -572,23 +583,25 @@ margin-top: 10px !important;
   border-right: none;
   color: var(--theme-colour-primary);
   border-radius: 2px;
-  padding: 0;
   font-weight: bold;
+  align-items: center;
+}
+.bi::before, [class*=" bi-"]::before{
+  font-weight: auto;
 }
 .bi-send-custom{
-  margin-left: 4px;
   transition: all 0.4s ease;
 }
 .bi-send-custom:hover{
   transition: all 0.4s ease;
 }
 .subscription-email{
-  width: 50% !important;
 margin-left: 25% !important;
 margin-right: 30% !important;
 height: 32px;
 box-sizing: border-box;
   transition: all 0.4s ease;
+  display: flex;
 }
 .subscription-email:hover{
    transition: all 0.4s ease;
@@ -596,7 +609,7 @@ box-sizing: border-box;
 .subscription a{
 position: absolute;
 margin-top: 45px;
-left: 38%;
+left: 26%;
 font-size: x-large;
 text-decoration: none;
 color: var(--theme-colour-primary);
