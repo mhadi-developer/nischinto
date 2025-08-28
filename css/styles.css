@@ -36,6 +36,17 @@ padding: 10px;
   font-weight: bolder;
   color: var(--theme-colour-primary) !important;
 }
+/* By default: hide the navbar on all screens */
+.top-bar-outer-wrapper {
+  display: none;
+}
+
+@media screen and (min-width: 1024px) {
+  .top-bar-outer-wrapper {
+    display: block;
+  }
+}
+
 
 
 .main-nav-bar-wrapper .nav-link{
