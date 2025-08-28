@@ -34,9 +34,8 @@
         </div>
       </div>
       <div class="main-nav-bar-wrapper">
-        <div class="container">
-          <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <a class="navbar-brand" href="#">
+          <nav class="navbar navbar-expand-lg bg-body-tertiary container">
+            <a class="navbar-brand" href="file:///E:/web%20paractise/PROJECT-NICHITO/assests/index.html" target="_blank">
               <img src="img/logo.png" alt="">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -47,37 +46,36 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  <a class="nav-link active" aria-current="page" href="#home">Home</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">About</a>
+                  <a class="nav-link active" href="#about">About</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link">Department</a>
+                  <a class="nav-link active" href="#departments">Department</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link">Doctor</a>
+                  <a class="nav-link active" href="#doctors">Doctor</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link">Gallery</a>
+                  <a class="nav-link active">Gallery</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link">PRICE</a>
+                  <a class="nav-link active" href="#price">PRICE</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link">BLOG</a>
+                  <a class="nav-link active">BLOG</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link pe-0">CONTACT</a>
+                  <a class="nav-link active pe-0" href="#contact">CONTACT</a>
                 </li>
               </ul>
             </div>
           </nav>
-        </div>
       </div><!-- /.main-nav-bar-wrapper -->
     </header>
     <!-- </header> header -->
-    <section class="hero-section-wrapper">
+    <section class="hero-section-wrapper" id="home">
       <div class="banner-overlay">
         <div class="row">
           <div class="col-md-6">
@@ -176,7 +174,7 @@
         </div>
       </section> <!-- /.services -->
 
-      <section class="about-us py-5">
+      <section class="about-us py-5" id="about">
         <div class="container text-center">
           <div class="common-design">
             <h2 class="mt-4" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="180">WHO WE ARE </h2>
@@ -269,7 +267,7 @@
         </div>
       </section><!-- /.information -->
 
-      <section class="departments py-5 my-5">
+      <section class="departments py-5 my-5" id="departments">
         <div class="container text-center">
           <div class="common-design">
             <h2 class="mt-4" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="180">OUR <br> DEPARTEMENTS
@@ -712,14 +710,14 @@
             <form>
               <div class="row mt-5">
                 <div class="col-lg-6" style="z-index: 1;">
-                  <div class="mb-5 mt-5">
+                  <div class="mb-5">
                     <label for="Full-Name" class="form-label">Full Name</label>
                     <input type="texr" class="form-control apt-form-custom" id="Appointment-form"
                       placeholder="YOUR NAME">
                   </div>
                 </div>
                 <div class="col-lg-6">
-                  <div class="mb-5 mt-5">
+                  <div class="mb-5">
                     <label for="Email" class="form-label">Email Address</label>
                     <input type="email" class="form-control apt-form-custom" style="z-index: 1;" id="Appointment-form"
                       placeholder="name@gmail.com">
@@ -782,7 +780,7 @@
           </div>
       </section><!-- /.appointment-form -->
 
-      <section class="doctors-list py-5 my-5">
+      <section class="doctors-list py-5 my-5" id="doctors">
         <div class="container">
           <div class="text-center">
             <div class="common-design py-3">
@@ -799,8 +797,9 @@
             </div>
           </div>
           <div class="doctor-list-wrapper my-3">
-            <div class="row">
-              <div class="col-lg-3" style="margin-block:30px;">
+            <div class="owl-carousel-wrapper">
+                <div class="owl-carousel owl-theme">
+            <div class="item">
                 <div class="doctor-profile">
                   <img src="img/poster/doctor-1.jpg" alt="">
 
@@ -830,8 +829,9 @@
                   <a href="" class="mt-2">Dr. Philip Bailey</a>
                   <p class="mt-2">UROLOGY</p>
                 </div>
-              </div>
-              <div class="col-lg-3" style="margin-block:30px;">
+            </div>
+
+            <div class="item">
                 <div class="doctor-profile">
                   <img src="img/poster/doctor-3.jpg" alt="">
 
@@ -861,9 +861,41 @@
                   <a href="" class="mt-2">Dr. Jeanette Hoff</a>
                   <p class="mt-2">SURGERY</p>
                 </div>
-              </div>
+            </div>
 
-              <div class="col-lg-3" style="margin-block:30px;">
+            <div class="item">
+                <div class="doctor-profile">
+                  <img src="img/poster/doctor-4.jpg" alt="">
+
+                  <div class="doctor-overlay">
+                    <div class="shape-container">
+                      <img src="img/poster/member-shape.svg" alt="" class="shape-img">
+                    </div>
+                    <div class="media-links">
+                      <ul>
+                        <li>
+                          <a href="https://www.facebook.com/r.php" target="_blank"><i class="bi bi-facebook"></i></a>
+                        </li>
+                        <li>
+                          <a href="https://www.linkedin.com/" target="_blank"><i class="bi bi-linkedin"></i></a>
+                        </li>
+                        <li>
+                          <a href="https://www.skype.com" target="_blank"><i class="bi bi-skype"></i></a>
+                        </li>
+                        <li>
+                          <a href="https://www.instagram.com" target="_blank"><i class="bi bi-instagram"></i></a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="specialist-info py-3">
+                  <a href="" class="mt-2">Dr. Matthew Hill</a>
+                  <p class="mt-2">NEUROLOGY</p>
+                </div>
+            </div>
+
+            <div class="item">
                 <div class="doctor-profile">
                   <img src="img/poster/docto-2.jpg" alt="">
 
@@ -895,7 +927,38 @@
                 </div>
               </div>
 
-              <div class="col-lg-3" style="margin-block:30px;">
+               <div class="item">
+                <div class="doctor-profile">
+                  <img src="img/poster/docto-2.jpg" alt="">
+
+                  <div class="doctor-overlay">
+                    <div class="shape-container">
+                      <img src="img/poster/member-shape.svg" alt="" class="shape-img">
+                    </div>
+                    <div class="media-links">
+                      <ul>
+                        <li>
+                          <a href="https://www.facebook.com/r.php" target="_blank"><i class="bi bi-facebook"></i></a>
+                        </li>
+                        <li>
+                          <a href="https://www.linkedin.com/" target="_blank"><i class="bi bi-linkedin"></i></a>
+                        </li>
+                        <li>
+                          <a href="https://www.skype.com" target="_blank"><i class="bi bi-skype"></i></a>
+                        </li>
+                        <li>
+                          <a href="https://www.instagram.com" target="_blank"><i class="bi bi-instagram"></i></a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="specialist-info py-3">
+                  <a href="" class="mt-2">Dr. Vera Hasson</a>
+                  <p class="mt-2">CARDIOLOGY</p>
+                </div>
+              </div>
+             <div class="item">
                 <div class="doctor-profile">
                   <img src="img/poster/doctor-4.jpg" alt="">
 
@@ -925,10 +988,41 @@
                   <a href="" class="mt-2">Dr. Matthew Hill</a>
                   <p class="mt-2">NEUROLOGY</p>
                 </div>
-              </div>
-
-
             </div>
+
+             <div class="item">
+                <div class="doctor-profile">
+                  <img src="img/poster/doctor-3.jpg" alt="">
+
+                  <div class="doctor-overlay">
+                    <div class="shape-container">
+                      <img src="img/poster/member-shape.svg" alt="" class="shape-img">
+                    </div>
+                    <div class="media-links">
+                      <ul>
+                        <li>
+                          <a href="https://www.facebook.com/r.php" target="_blank"><i class="bi bi-facebook"></i></a>
+                        </li>
+                        <li>
+                          <a href="https://www.linkedin.com/" target="_blank"><i class="bi bi-linkedin"></i></a>
+                        </li>
+                        <li>
+                          <a href="https://www.skype.com" target="_blank"><i class="bi bi-skype"></i></a>
+                        </li>
+                        <li>
+                          <a href="https://www.instagram.com" target="_blank"><i class="bi bi-instagram"></i></a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="specialist-info py-3">
+                  <a href="" class="mt-2">Dr. Jeanette Hoff</a>
+                  <p class="mt-2">SURGERY</p>
+                </div>
+              </div>
+            </div>
+           </div>
           </div><!-- /.doctor-list-wrapper -->
         </div>
       </section> <!--section Doctor list-->
@@ -994,8 +1088,8 @@
                     <div class="dp">
                       <img src="img/avatar/Ralph Jones avatar.png" alt="">
                     </div>
-                    <h3> UX-Designer</h3>
-                    <p>Biography</p>
+                    <h3> Ralph Jones</h3>
+                    <p>UX-Designer</p>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod provident, officia quos aut dicta
                       unde eius autem architecto consequuntur nostrum quidem, commodi quas asperiores id?</p>
                     <div class="quote-icon">
@@ -1014,7 +1108,7 @@
 
       <section class="stats"></section><!-- /.stats -->
 
-      <section class="price-list my-5">
+      <section class="price-list my-5" id="price">
         <div class="container">
           <div class="price-list-wrapper py-4">
             <div class="text-center">
@@ -1149,10 +1243,10 @@
         <div class="container">
           <div class="faqs-wrapper py-5 px-5">
             <div class="row">
-              <div class="col-lg-6">
-              <div class="faqs-bg-img">
-                 <img src="img/poster/faq-img.png" alt="">
-              </div>
+              <div class="col-lg-6 faqs-col">
+                <div class="faqs-bg-img">
+                  <img src="img/poster/faq-img.png" alt="">
+                </div>
               </div>
               <div class="col-lg-6">
                 <h4 class="my-4 ms-5">Just Answer the Question</h4>
@@ -1249,105 +1343,108 @@
 
         </div>
       </section> <!--FAQS-->
-      
+
       <section class="subscription py-5 my-5">
-       <div class="container">
-        <div class="text-center">
-          <div class="common-design">
-            <h2 class="mt-4" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="180">Subscribe & <br>Stay Update </h2>
-            <div class="logo-wrapper">
-              <span class="line"></span>
-              <img class="infinite-flip" src="img/logo-design.png" alt="">
-              <span class="line"></span>
-            </div>
-            <p class="py-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam quo quae itaque amet
-              eaque
-              possimus?</p>
-          </div>
-          <form action="" class="subscription-form">
-             <div class=" subscription-email">
-               <div class="mb-3">
-                <input type="email" class="form-control" id="subscription-email" placeholder="Enter your Email address">
+        <div class="container">
+          <div class="text-center">
+            <div class="common-design">
+              <h2 class="mt-4" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="180">Subscribe & <br>Stay
+                Update </h2>
+              <div class="logo-wrapper">
+                <span class="line"></span>
+                <img class="infinite-flip" src="img/logo-design.png" alt="">
+                <span class="line"></span>
               </div>
-              <button type="submit" class="btn-send">
+              <p class="py-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam quo quae itaque amet
+                eaque
+                possimus?</p>
+            </div>
+            <form action="" class="subscription-form">
+              <div class=" subscription-email">
+                <div class="mb-3">
+                  <input type="email" class="form-control" id="subscription-email"
+                    placeholder="Enter your Email address">
+                </div>
+                <button type="submit" class="btn-send">
                   <i class="bi bi-send bi-send-custom"></i>
-              </button>
-             </div>
-          </form>
-        </div>
-        
+                </button>
+              </div>
+            </form>
+          </div>
+
           <a href="tel:+0123-456-789" class="contact-no">+(01)23-456-7890</a>
 
-       </div>
+        </div>
       </section> <!--Subscription-->
 
       <section class="update-news"></section><!-- /.update-news -->
       <section class="slider"></section><!-- /.slider -->
 
-      <section class="stay-connected my-5">
+      <section class="stay-connected my-5" id="contact">
         <div class="container py-5">
           <div class="connect-form-img-wrapper">
-              <img src="img/poster/contact-shape2.svg" alt="">
-            </div>
-          <div class="text-center">
-               <div class="common-design">
-            <h2 class="mt-4" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="180">Stay <br>Connect with us </h2>
-            <div class="logo-wrapper">
-              <span class="line"></span>
-              <img class="infinite-flip" src="img/logo-design.png" alt="">
-              <span class="line"></span>
-            </div>
-            <p class="py-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam quo quae itaque amet
-              eaque
-              possimus?</p>
+            <img src="img/poster/contact-shape2.svg" alt="">
           </div>
+          <div class="text-center">
+            <div class="common-design">
+              <h2 class="mt-4" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="180">Stay <br>Connect with us
+              </h2>
+              <div class="logo-wrapper">
+                <span class="line"></span>
+                <img class="infinite-flip" src="img/logo-design.png" alt="">
+                <span class="line"></span>
+              </div>
+              <p class="py-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam quo quae itaque amet
+                eaque
+                possimus?</p>
+            </div>
           </div>
 
           <div class="connected-form">
             <div class="row">
-               <div class="col-lg-6">
-                  <div class="mb-5">
-                    <label for="Full-Name" class="form-label">Full Name</label>
-                    <input type="texr" class="form-control form-control-custom" id="Connected-form"
-                      placeholder="YOUR NAME">
-                  </div>
+              <div class="col-lg-6">
+                <div class="mb-5">
+                  <label for="Full-Name" class="form-label">Full Name</label>
+                  <input type="texr" class="form-control form-control-custom" id="Connected-form"
+                    placeholder="YOUR NAME">
                 </div>
-                 <div class="col-lg-6">
-                  <div class="mb-5">
-                    <label for="Full-Name" class="form-label">Email</label>
-                    <input type="email" class="form-control form-control-custom" id="Connected-form"
-                      placeholder="YOURName@gmail.com">
-                  </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="mb-5">
+                  <label for="Full-Name" class="form-label">Email</label>
+                  <input type="email" class="form-control form-control-custom" id="Connected-form"
+                    placeholder="YOURName@gmail.com">
                 </div>
-                 <div class="col-lg-6">
-                  <div class="mb-5">
-                    <label for="Full-Name" class="form-label">Phone</label>
-                    <input type="number" class="form-control form-control-custom" id="Connected-form"
-                      placeholder="0123456789">
-                  </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="mb-5">
+                  <label for="Full-Name" class="form-label">Phone</label>
+                  <input type="number" class="form-control form-control-custom" id="Connected-form"
+                    placeholder="0123456789">
                 </div>
-                 <div class="col-lg-6">
-                  <div class="mb-5">
-                    <label for="Full-Name" class="form-label">Subject</label>
-                    <input type="texr" class="form-control form-control-custom" id="Connected-form"
-                      placeholder="Write Subject">
-                  </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="mb-5">
+                  <label for="Full-Name" class="form-label">Subject</label>
+                  <input type="texr" class="form-control form-control-custom" id="Connected-form"
+                    placeholder="Write Subject">
                 </div>
+              </div>
 
-                 <div class="col-lg-12">
-                  <div class="mb-5 mt-4">
-                    <label>Message</label>
-                    <textarea class="form-control form-control-custom" id="Connected-form" rows="10"
-                      placeholder="Share your toughts"></textarea>
-                  </div>
+              <div class="col-lg-12">
+                <div class="mb-5 mt-4">
+                  <label>Message</label>
+                  <textarea class="form-control form-control-custom" id="Connected-form" rows="10"
+                    placeholder="Share your toughts"></textarea>
                 </div>
+              </div>
             </div>
             <a href="#" class="btn btn-custom btn-connect-custom hvr-glow">Send Message</a>
           </div>
 
-     <div class="connct-form-bottom-img">
-      <img src="img/poster/contact-shape2.svg" alt="">
-     </div>
+          <div class="connct-form-bottom-img">
+            <img src="img/poster/contact-shape2.svg" alt="">
+          </div>
 
         </div>
       </section> <!--Stay connected-->
@@ -1356,21 +1453,6 @@
 
     </main><!-- </main> <main>|</main> -->
     <footer class="footer">
-      <div class="owl-carousel owl-theme">
-    <div class="item"><h4>1</h4></div>
-    <div class="item"><h4>2</h4></div>
-    <div class="item"><h4>3</h4></div>
-    <div class="item"><h4>4</h4></div>
-    <div class="item"><h4>5</h4></div>
-    <div class="item"><h4>6</h4></div>
-    <div class="item"><h4>7</h4></div>
-    <div class="item"><h4>8</h4></div>
-    <div class="item"><h4>9</h4></div>
-    <div class="item"><h4>10</h4></div>
-    <div class="item"><h4>11</h4></div>
-    <div class="item"><h4>12</h4></div>
-</div>
-
     </footer>
     <!-- <footer></footer> -->
     <!-- Modal -->
