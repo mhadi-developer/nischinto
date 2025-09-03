@@ -286,6 +286,9 @@ text-align: center;
     fill: #37af47;
     background-color: rgba(55, 175, 71, 0.1);
 }
+.st-green-box:active{
+  background-color:#37af47;
+}
 .st-dip-blue-box{
       color: #1665d8;
     fill: #1665d8;
@@ -736,9 +739,25 @@ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     display: none !important;
   }
 }
-@media (min-width: 992px) {
+@media (max-width: 992px) {
     .col-lg-6 .faqs-col {
         flex: 0 0 auto;
-        width: 50%;
+        
+    }}
+    @media (max-width: 769px) {
+    .departments-faculty .nav{
+      overflow-x: scroll;
+     gap: 70px;
     }
 }
+  @media (max-width: 769px) {
+    .tab-pane .col-lg-6 img{
+      width: 100%;
+      margin:  20px 0px;
+    }
+
+  }
+    
+  
+  
+
